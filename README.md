@@ -1,8 +1,7 @@
 # cfn-static-website-starter-challenge
 Deploying an S3 bucket and EC2 instance with Apache2 server on top that's able to access that bucket object to deploy a static website
 
-
-``
+```
  aws cloudformation create-stack --stack-name [your-preferred-name] --region [your-region] --template-body file://cfn-challenge.yml --parameters file://parameters.json --capabilities CAPABILITY_NAMED_IAM [--profile udacity2]     
  ```
 Upload your static .html to the created bucket via AWS Management Console.
